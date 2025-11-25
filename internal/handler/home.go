@@ -17,7 +17,7 @@ func NewHomeHandler(s *server.Server) *HomeHandler {
 
 func (h *HomeHandler) ServeHome(c echo.Context) error {
 	return c.JSON(http.StatusOK, map[string]interface{}{
-		"name":    "Recipe Share API",
+		"name":    "Boilerplate API",
 		"version": "v1",
 		"health":  "/status",
 		"docs":    "/docs",

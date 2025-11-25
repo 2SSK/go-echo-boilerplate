@@ -1,8 +1,5 @@
 version: "3"
 
-env:
-  source: .env
-
 vars:
   BOILERPLATE_DB_DSN: '{{.BOILERPLATE_DB_DSN | default ""}}'
 
